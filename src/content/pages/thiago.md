@@ -34,7 +34,7 @@ mapbox:
   views: []
 components:
   - type: Cta
-    id: teste
+    id: teste!
     shortTitle: Teste
     longTitle: ''
     description: ''
