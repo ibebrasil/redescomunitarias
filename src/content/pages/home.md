@@ -6,10 +6,10 @@ pageSettings:
   link_pt_br: /home
   link_en: /home-en
   link_es: /home-es
+  animations: enable_all
   direction: left
   seoTitle: ''
   seoDescription: ''
-  animations: enable_all
 pageTheme:
   primaryColor: '#000009'
   secondaryColor: '#ffffffff'
@@ -23,26 +23,31 @@ pageTheme:
       tablet: '11'
       desktop: '12'
 mapbox:
+  style: mapbox://styles/comborari/ckr4wi3k80fpl17qo34th6kk2
+  token: pk.eyJ1IjoiY29tYm9yYXJpIiwiYSI6ImNrcjR3OWczMjBhaWEyeHIyaWhwMnUzNHcifQ.Yv7o7kj1ImyC9Rn-egF0TQ
+  centerLng: '0'
+  centerLat: '0'
+  zoom: '0'
+  bearing: ''
+  pitch: ''
+  layers: ''
   columnAlign: left
   floatingText: false
-  style: mapbox://styles/comborari/ckr4wi3k80fpl17qo34th6kk2
-  center:
-    lng: -54.875
-    lat: -2.53
-  zoom: 1.1
-  bearing: 0
-  pitch: 0
-  layers: []
-  token: pk.eyJ1IjoiY29tYm9yYXJpIiwiYSI6ImNrcjR3OWczMjBhaWEyeHIyaWhwMnUzNHcifQ.Yv7o7kj1ImyC9Rn-egF0TQ
   views:
     - id: view_0
+      centerLng: '0'
+      centerLat: '0'
+      zoom: '0'
+      mobileZoom: ''
+      duration: ''
+      bearing: ''
+      pitch: ''
+      layers: ''
+      title: ''
+      notes: ''
       center:
         lng: -58.911
         lat: -6.315
-      duration: 4500
-      zoom: 4
-      bearing: 0
-      pitch: 0
       mobile:
         zoom: 3.5
       captions:
@@ -54,26 +59,26 @@ mapbox:
             typeIcon: outlined
             iconFill: true
             text: archaeologic sites
-      layers:
-        - amazonialegal
+  center:
+    lng: -54.875
+    lat: -2.53
   mapView: ''
 components:
   - type: Group
-    shortTitle: group_1
-    longTitle: group_1
+    id: cabecalho
+    shortTitle: Cabeçalho
+    longTitle: Cabeçalho
     description: ''
     showInMenu: false
     animations: true
-    id: group_1
-    layout: default
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Custom
     customBgColor: '#4d4d58a1'
     backgroundMedia:
-      - type: backgroundImage
-        imgSrc: /uploads/expulsion-san-marcos.jpg
-    overlay: ''
+      - type: backgroundVideo
+        videoSrc: /uploads/marrecas-final.mp4
+    overlay: dark
     components:
       - type: ColumnSticky
         hasDropCap: false
@@ -82,34 +87,126 @@ components:
         paddingTop: true
         paddingBottom: true
         layout: title-bottom
-        title: EM CONSTRUÇÃO
+        title: PROJETOS DE REDES COMUNITÁRIAS DE SP E RJ
         components:
           - type: Text
             hasDropCap: false
             content: |-
-                #### Documental.xyz é uma plataforma digital de código aberto, voltada à construção de narrativas visuais e georreferenciadas.
-                
-                Seu objetivo é apoiar investigações baseadas em dados sobre violações de direitos humanos, territoriais e ambientais, causadas pelo Estado e por corporações, para fins de advocacia e reparação histórica.
+              #### Apoio via Emendas Parlamentares
+
+              Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customBgColor: ''
             customTxtColor: ''
-        body: ''
-        customBgColor: ''
+            customBgColor: ''
         customTxtColor: ''
+        customBgColor: ''
+        body: ''
+    layout: default
   - type: Group
-    shortTitle: group_2
+    id: group_5
+    shortTitle: group_5
     longTitle: ''
     description: ''
     showInMenu: false
     animations: true
-    id: group_2
-    layout: default
     txtColor: Secondary
     customTxtColor: ''
     bgColor: Highlight
     customBgColor: ''
+    overlay: dark
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: true
+              content: |-
+                **Como será viabilizado**
+
+                As emendas são direcionadas ao **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao MCOM** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
+
+                **Quem promove**
+
+                As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
+        column2:
+          components:
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base.
+                    link:
+                      url: '#'
+                      target: ''
+                      customTarget: ''
+                      text: Baixar
+                    icon: <span class="material-symbols-outlined"> download_2 </span>
+    layout: default
+  - type: Group
+    id: barra_acu
+    shortTitle: Barra do Açu
+    longTitle: Barra do Açu
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
     overlay: ''
+    components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 33-66
+        column1:
+          components:
+            - type: Gallery
+              description: Fotos da rede
+              uniqid: g_barra_acu
+              images:
+                - image: /uploads/image33.jpg
+                  caption: ''
+                - image: /uploads/image17.jpg
+                  caption: ''
+                - image: /uploads/image7.jpg
+                  caption: ''
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: |-
+                ## Barra do Açu
+
+                Na Barra do Açu (São João da Barra/RJ), a expansão parte de uma rede já viva — 50 famílias conectadas e uma rádio web comunitária — para chegar a mais 250 famílias e a pontos como escola, praças, UBS e sede associativa. A governança comunitária liderada pela AMA, com rotinas de manutenção e formação de agentes locais, consolida uma infraestrutura de direitos em um território em transformação, fortalecendo comércio, turismo de base comunitária, canais próprios de comunicação e alerta.
+            - type: BigNumbers
+              alignment: caption-bottom
+              items:
+                - number: '20.000'
+                  caption: Moradores
+                - number: '6000'
+                  caption: km² de território
+  - type: Group
+    id: cazumba
+    shortTitle: Cazumbá
+    longTitle: Cazumbá
+    description: ''
+    showInMenu: true
+    animations: true
+    txtColor: Secondary
+    customTxtColor: ''
+    bgColor: Custom
+    customBgColor: '#926b16ff'
+    backgroundMedia: []
+    overlay: dark
     components:
       - type: Columns
         paddingTop: false
@@ -121,222 +218,27 @@ components:
             - type: Text
               hasDropCap: false
               content: |-
-                Combinando o potencial das mídias digitais - código, imagem e mapeamento -, a plataforma oferece ferramentas gratuitas para transformar conjuntos de dados complexos em "geo-histórias" visuais, tornando visíveis violações e repetições de padrões de violência, permitindo que organizações, ONGs, jornalistas e produtores de mídia documentem realidades locais para audiências globais de forma socialmente significativa e visualmente envolvente, ampliando o alcance de comunicação, engajamento público e advocacia institucional. 
+                ## Cazumbá e entorno
 
-                Em um contexto de crescente proliferação midiática e novas tecnologias de produção e disseminação de fake news, a visibilização espacial da violência e a composição de fragmentos de informações em um conjunto verificado e referenciado de dados se torna cada vez mais importante para a compreensão de sua dimensão e consequências. Neste sentido, a plataforma Documental busca contribuir para a construção de uma capacidade civil de investigação, de resposta e de defesa de casos de violações de direitos, com o objetivo de promover o concernimento e o debate públicos sobre justiça social e ambiental.
-              txtColor: ''
-              bgColor: ''
-              customBgColor: ''
-              customTxtColor: ''
+                Em Cazumbá e entorno (Sabonete, Campos de Areia, Córrego Fundo, Barra do Jacaré e Água Preta), também em São João da Barra, o projeto conecta 250 famílias agricultoras e pontos coletivos — praças, duas unidades de saúde e três escolas — num município com baixa densidade de banda larga. A autogestão, com protagonismo da ADEC, sustenta o uso seguro e prático da rede (educação, saúde, documentos, alertas climáticos), reduz custos e assimetrias de informação e dá previsibilidade ao escoamento da produção, com efeito multiplicador no Sertão Sanjoanense.
+            - type: BigNumbers
+              alignment: caption-bottom
+              items:
+                - number: '10.000'
+                  caption: Moradores
+                - number: '300'
+                  caption: km² de território
         column2:
           components:
-            - type: Spacer
-              desktop: 0px
-    backgroundImage: ''
-  - type: Group
-    shortTitle: group_3
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    id: group_3
-    layout: default
-    txtColor: Primary
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 33-66
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: |-
-                ### COMO FUNCIONA A DOCUMENTAL?
-              txtColor: ''
-              bgColor: ''
-              customBgColor: ''
-              customTxtColor: ''
-        column2:
-          components:
-            - type: Timeline
-              txtColor: ''
-              bgColor: ''
-              components:
-                - type: TimelineBullet
-                  text: ''
-                  content: 'Utilizando-se de ferramentas para visualização e geoespacialização de dados, Documental.xyz possibilita a combinação de conjuntos complexos de informação - texto, fotografias, vídeos, dados, imagens de satélite e mapas - em narrativas contextualizadas geograficamente.'
-                - type: Spacer
-                  desktop: 100px
-                  tablet: 100px
-                  mobile: 100px
-                - type: TimelineBullet
-                  text: ''
-                  content: 'Através de uma interface intuitiva, automatizada e de fácil manipulação, a plataforma funciona como um "Content Management System" (CMS), ou Sistema de Gerenciamneto de Conteúdo - um software que permite criar, editar, organizar e publicar conjunto de dados, sem a necessidade de conhecimentos avançados em programação.'
-                - type: Spacer
-                  desktop: 100px
-                  tablet: 100px
-                  mobile: 100px
-                - type: TimelineBullet
-                  text: ''
-                  content: 'Documental possui uma estrutura pré-formada e customizável, através da qual o usuário pode gerar conteúdo multimídia e geolocalizado de maneira similar à produção de um blog, oferecendo um recurso simples, porém sofisticado, para a criação e publicação de narrativas em projetos jornalísticos e investigativos.'
-  - type: Group
-    shortTitle: group_4
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    id: group_4
-    layout: default
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
-    overlay: ''
-    components:
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 33-66
-        column1:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: |-
-                ### ALGUMAS INVESTIGAÇÕES PUBLICADAS NA PLATAFORMA
-              txtColor: ''
-              bgColor: ''
-              customBgColor: ''
-              customTxtColor: ''
-        column2:
-          components:
-            - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-  - type: Group
-    shortTitle: group_5
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    id: group_5
-    layout: default
-    txtColor: Secondary
-    customTxtColor: ''
-    bgColor: Highlight
-    customBgColor: ''
-    overlay: dark
-    components:
-        - type: CardsCall
-          cardsCallArr:
-            - link:
-                url: 'https://documental.xyz/alter-ameacada'
-                target: ''
-                customTarget: ''
-              img:
-                src: /uploads/vende-se-03.jpeg
-                alt: Image
-              title: Alter do Chão 
-              text: 'O projeto Alter do Chão Ameaçada, produzido pela Frente de Comunicação Indígena Borari e publicado na plataforma Documental com mentoria de Adriano Belisário (MediaLab/UFRJ), investiga a ameaça ao povo indígena Borari, em Santarém, no Pará, devido à especulação imobiliária e ocupação desordenada da região. Através da análise de mapas e imagens de satélite, a pesquisa mapeou o território Borari e seus sítios arqueológicos, assim como os danos ambientais causados aos igarapés e nascentes, como forma de visualizar a extensão das violações causadas e pleitear pela demarcação da Terra Indígena.'
-            - link:
-                url: 'https://documental.xyz/territorios-de-excecao/'
-                target: ''
-                customTarget: ''
-              img:
-                src: /uploads/territorios-de-excecao.jpg
-                alt: Image2
-              title: Territórios de Exceção
-              text: 'Uma parceria entre a agência autônoma e o MediaLab (UFRJ), o caso Territórios da Exceção investigou o uso de helicópteros como plataforma de disparos da polícia militar nas favelas do Rio de Janeiro para compreender a dinâmica e os impactos deste tipo de operação sobre os direitos fundamentais das populações e comunidades atingidas. Utilizando ciência de visualização de dados, dados governamentais e de mídias sociais, investigações de campo e técnicas de arquitetura forense, a pesquisa apresenta as evidências por meio de vídeos, animações, imagens em 3D e informações georreferenciadas, oferecendo uma experiência imersiva dentro dos mapas e localidades.'
-        - type: CardsCall
-          cardsCallArr:
-            - link:
-                url: 'https://documental.xyz/expulsions/'
-                target: ''
-                customTarget: ''
-              img:
-                src: /uploads/expulsion-san-marcos.jpg
-                alt: Image2
-              title: Expulsões
-              text: 'O caso Expulsões, realizado através da parceria entre a agência autônoma e o Forensic Architecture, investiga violações de direitos humanos e ambientais decorrentes da implantação de um megaprojeto de mineração na região da Cordilheira de Cóndor, na Amazônia Equatoriana. Através da análise de imagens de satélite e de testemunhos das vítimas, com o apoio de atores locais, a investigação mapeou processos de despossessão de comunidades e povos indígenas, desmatamento e destruição de sítios arqueológicos, demonstrando as dinâmicas espaciais de uma ação coordenada de violações sistemáticas.'
-            - link:
-                url: 'https://documental.xyz/nhanderekoa/'
-                target: ''
-                customTarget: ''
-              img:
-                src: /uploads/imagem_16_ocupacao_antena.jpg
-                alt: Image2
-              title: Nhanderekoa
-              text: 'O projeto Arquiteturas da Reparação: São Paulo Terra Indígena foi desenvolvido no âmbito das instituições agência autônoma, Chão Coletivo e Plataforma Práticas Espaciais / Escola da Cidade, com apoio do CAU/SP. Ele apresenta uma cartografia da Terra Indígena Guarani do Jaraguá, em São Paulo, no momento de sua demarcação física entre julho e setembro de 2025. Esse território preserva um dos últimos fragmentos de Mata Atlântica na cidade, e carrega enorme importância ambiental, climática e espiritual para os povos Guarani, que habitam a região desde tempos imemoriais. Nhanderekoa – “onde nossa cultura vive”, nome dado ao conjunto de cartografias e análises mostradas aqui, combina análise de dados geoespaciais, cartografia participativa, entrevistas e arquivos históricos para traçar um panorama das práticas de defesa, cuidado e reparação das florestas do Jaraguá, ao mesmo tempo em que identifica ameaças atuais ao território. Nhanderekoa expressa o entendimento Guarani de que a floresta – com seus animais, plantas e espíritos – é parte inseparável do modo de vida, constituindo uma extensão de moradia compartilhada entre seres humanos e não humanos.'
-        - type: Spacer
-          desktop: 150px
-          tablet: 150px
-          mobile: 150px
-  - type: Group
-    shortTitle: group_6
-    longTitle: ''
-    description: ''
-    showInMenu: false
-    animations: true
-    id: group_6
-    layout: default
-    txtColor: Highlight
-    customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    overlay: dark
-    components:
-        - type: Columns
-          paddingTop: false
-          paddingBottom: false
-          invertOnMobile: false
-          columnsAlign: 66-33
-          column1:
-            components:
-              - type: Text
-                hasDropCap: false
-                content: |-
-                  **Documental.xyz** foi originalmente desenvolvida em 2019 pela agência **Autônoma** e pelo **MediaLab UFRJ**, em colaboração com a **Rede LAVITS**.
-                txtColor: ''
-                bgColor: ''
-                customBgColor: ''
-                customTxtColor: ''
-              - type: LogosGroup
-                logos:
-                  - image: /uploads/autonoma-black-redim.png
-                    link:
-                      url: https://www.advocacia.autonoma.xyz/
-                      target: _blank
-                      customTarget: ''
-                      title: ''
-                  - image: /uploads/medialab-redim.png
-                    link:
-                      url: https://medialabufrj.net/
-                      target: _blank
-                      customTarget: ''
-                      title: ''
-                  - image: /uploads/logo-2.png
-                    link:
-                      url: https://lavits.org/
-                      target: _blank
-                      customTarget: ''
-                      title: ''
-          column2:
-            components:
-              - type: Text
-                hasDropCap: false
-                content: |-
-                  ###### **CRÉDITOS**
-
-                  Coordenação: **Paulo Tavares e Fernanda Bruno**
-
-                  Design e front end: **atonal.studio**
-
-                  Back end e documentação: **Thiago Paixão**
+            - type: Gallery
+              description: Fotos da rede
+              uniqid: g_cazumba
+              images:
+                - image: /uploads/image11.jpg
+                  caption: ''
+                - image: /uploads/image12.jpg
+                  caption: ''
+                - image: /uploads/image17.jpg
+                  caption: ''
 ---
+
