@@ -205,7 +205,9 @@ components:
     customTxtColor: ''
     bgColor: Custom
     customBgColor: '#926b16ff'
-    backgroundMedia: []
+    backgroundMedia:
+      - type: backgroundImage
+        imgSrc: /uploads/rural_meadow_landscape_background-900.jpg
     overlay: dark
     components:
       - type: Columns
