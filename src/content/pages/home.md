@@ -65,7 +65,7 @@ mapbox:
   mapView: ''
 components:
   - type: Group
-    id: cabecalhos
+    id: cabecalho
     shortTitle: Cabeçalho
     longTitle: Cabeçalho
     description: ''
@@ -77,7 +77,7 @@ components:
     customBgColor: '#4d4d58a1'
     backgroundMedia:
       - type: backgroundVideo
-        videoSrc: /uploads/marrecas-final.mp4
+        videoSrc: /uploads/video_bg.mp4
     overlay: dark
     components:
       - type: ColumnSticky
