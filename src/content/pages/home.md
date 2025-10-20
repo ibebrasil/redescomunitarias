@@ -65,7 +65,7 @@ mapbox:
   mapView: ''
 components:
   - type: Group
-    id: cabecalho
+    id: cabecalhos
     shortTitle: Cabeçalho
     longTitle: Cabeçalho
     description: ''
@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customTxtColor: ''
             customBgColor: ''
-        customTxtColor: ''
-        customBgColor: ''
+            customTxtColor: ''
         body: ''
+        customBgColor: ''
+        customTxtColor: ''
     layout: default
   - type: Group
     id: introducao
