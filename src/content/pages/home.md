@@ -714,14 +714,9 @@ components:
         columnsAlign: 33-66
         column1:
           components:
-            - type: VideoEmbed
-              wideVideo: false
-              videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
-              videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
-            - type: VideoEmbed
-              wideVideo: false
-              videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
-              videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
+            - type: Text
+              hasDropCap: false
+              content: '### Saiba mais sobre as Redes Comunitárias'
         column2:
           components:
             - type: InnerColumns
