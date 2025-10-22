@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customBgColor: ''
             customTxtColor: ''
-        body: ''
-        customBgColor: ''
+            customBgColor: ''
         customTxtColor: ''
+        customBgColor: ''
+        body: ''
     layout: default
   - type: Group
     id: introducao
@@ -617,7 +617,15 @@ components:
             - type: Gallery
               description: Fotos da rede
               uniqid: g_heliopolis
-              images: []
+              images:
+                - image: /uploads/image47.jpeg
+                  caption: ''
+                - image: /uploads/image48.jpeg
+                  caption: ''
+                - image: /uploads/image50.jpeg
+                  caption: ''
+                - image: /uploads/image49.jpeg
+                  caption: ''
   - type: Group
     id: novo_futuro
     shortTitle: Novo Futuro
@@ -789,3 +797,4 @@ components:
                     videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
                     videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
 ---
+
