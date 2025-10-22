@@ -133,16 +133,18 @@ components:
                 **Quem promove**
 
                 As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
-
+            - type: VideoEmbed
+              wideVideo: false
+              videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
+              videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
+        column2:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: |-
                 **Projetos**
 
                 Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui ao lado todos os documentos juntos em um arquivo .zip de cada região.
-        column2:
-          components:
-            - type: Spacer
-              desktop: 20px
-              tablet: 20px
-              mobile: 20px
             - type: Cards
               cardsArr:
                 - Card:
