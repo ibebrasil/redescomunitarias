@@ -145,6 +145,10 @@ components:
                 **Projetos**
 
                 Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui ao lado todos os documentos juntos em um arquivo .zip de cada região.
+            - type: Spacer
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
             - type: Cards
               cardsArr:
                 - Card:
@@ -167,54 +171,6 @@ components:
                       customTarget: ''
                       text: Baixar Documentos
                     icon: <span class="material-symbols-outlined"> download_2 </span>
-      - type: Columns
-        paddingTop: false
-        paddingBottom: false
-        invertOnMobile: false
-        columnsAlign: 66-33
-        column1:
-          components:
-            - type: VideoEmbed
-              wideVideo: false
-              videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
-              videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
-            - type: Text
-              hasDropCap: false
-              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip de cada região.
-            - type: Cards
-              cardsArr:
-                - Card:
-                    type: Card
-                    title: Projetos de RJ
-                    text: Todos os projetos de comunidades do Rio de Janeiro
-                    link:
-                      url: '#'
-                      target: ''
-                      customTarget: ''
-                      text: Baixar
-                    icon: ''
-                - Card:
-                    type: Card
-                    title: Projetos de SP
-                    text: Todos os projetos de comunidades do Rio de Janeiro
-                    link:
-                      url: '#'
-                      target: ''
-                      customTarget: ''
-                      text: Baixar
-                    icon: ''
-        column2:
-          components:
-            - type: Text
-              hasDropCap: false
-              content: |-
-                **Como será viabilizado**
-
-                As emendas são direcionadas ao **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao MCOM** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
-
-                **Quem promove**
-
-                As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
     layout: default
   - type: Group
     id: barra_acu
