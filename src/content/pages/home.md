@@ -12,9 +12,9 @@ pageSettings:
   seoDescription: ''
 pageTheme:
   primaryColor: '#000009'
-  secondaryColor: '#ffffffff'
-  highlightColor: '#313232ff'
-  auxiliaryColor: '#0f7c77ff'
+  secondaryColor: '#ffffff'
+  highlightColor: '#313232'
+  auxiliaryColor: '#0f7c77'
   displayFont: ''
   textFont: ''
   spacingPatterns:
@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customTxtColor: ''
             customBgColor: ''
-        customTxtColor: ''
-        customBgColor: ''
+            customTxtColor: ''
         body: ''
+        customBgColor: ''
+        customTxtColor: ''
     layout: default
   - type: Group
     id: introducao
@@ -700,9 +700,9 @@ components:
     description: ''
     showInMenu: false
     animations: true
-    txtColor: Primary
+    txtColor: Secondary
     customTxtColor: ''
-    bgColor: Secondary
+    bgColor: Primary
     customBgColor: ''
     backgroundMedia: []
     overlay: ''
@@ -716,7 +716,10 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: '### Saiba mais sobre as Redes Comunitárias'
+              content: |-
+                ### Saiba mais sobre as Redes Comunitárias
+
+                Veja vídeos de projetos, organizações e comunidades que promovem Redes Comunitárias conhecer mais esse movimento que promove autonomia tecnológica para quem mais precisa.
         column2:
           components:
             - type: InnerColumns
