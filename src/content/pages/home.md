@@ -147,6 +147,13 @@ components:
                       customTarget: ''
                       text: Baixar todos projetos
                     icon: <span class="material-symbols-outlined"> download_2 </span>
+            - type: BigNumbers
+              alignment: caption-bottom
+              items:
+                - number: '05'
+                  caption: Projetos de RJ
+                - number: '05'
+                  caption: Projetos de SP
     layout: default
   - type: Group
     id: barra_acu
