@@ -188,9 +188,9 @@ components:
 
                 Na Barra do Açu (São João da Barra/RJ), a expansão parte de uma rede já viva — 50 famílias conectadas e uma rádio web comunitária — para chegar a mais 250 famílias e a pontos como escola, praças, UBS e sede associativa. A governança comunitária liderada pela AMA, com rotinas de manutenção e formação de agentes locais, consolida uma infraestrutura de direitos em um território em transformação, fortalecendo comércio, turismo de base comunitária, canais próprios de comunicação e alerta.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
             - type: Cards
               cardsArr:
                 - Card:
