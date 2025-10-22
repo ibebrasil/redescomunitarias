@@ -702,7 +702,7 @@ components:
     animations: true
     txtColor: Primary
     customTxtColor: ''
-    bgColor: Primary
+    bgColor: Secondary
     customBgColor: ''
     backgroundMedia: []
     overlay: ''
