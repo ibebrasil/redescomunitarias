@@ -139,6 +139,10 @@ components:
                 Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui ao lado todos os documentos juntos em um arquivo .zip de cada região.
         column2:
           components:
+            - type: Spacer
+              desktop: 20px
+              tablet: 20px
+              mobile: 20px
             - type: Cards
               cardsArr:
                 - Card:
