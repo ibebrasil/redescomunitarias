@@ -259,16 +259,21 @@ components:
 
                 Em Cazumbá e entorno (Sabonete, Campos de Areia, Córrego Fundo, Barra do Jacaré e Água Preta), também em São João da Barra, o projeto conecta 250 famílias agricultoras e pontos coletivos — praças, duas unidades de saúde e três escolas — num município com baixa densidade de banda larga. A autogestão, com protagonismo da ADEC, sustenta o uso seguro e prático da rede (educação, saúde, documentos, alertas climáticos), reduz custos e assimetrias de informação e dá previsibilidade ao escoamento da produção, com efeito multiplicador no Sertão Sanjoanense.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/Cazumba.pdf
-                target: _self
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/Cazumba.pdf
+                      target: _self
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
         column2:
           components:
             - type: Gallery
@@ -321,16 +326,21 @@ components:
 
                 Na Baixada Campista, Marrecas e Quixaba expandem uma rede já ativa — hoje com 120 famílias — para alcançar mais 250 famílias (≈ 1.000 pessoas), além de duas praças e duas associações. Em território rural e disperso, a solução reforça backhaul quando necessário, amplia a última milha, instala Wi‑Fi comunitário e realiza atendimentos domiciliares, tudo sob gestão local simples e transparente. O impacto se vê no cotidiano: aulas híbridas, teleatendimento em saúde, emissão de documentos, boletins de tempo e maré para pesca e plantio, logística compartilhada e meios de pagamento digitais.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/Marrecas.pdf
-                target: _blank
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/Marrecas.pdf
+                      target: _blank
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
   - type: Group
     id: espiritosantinho_garrafao_santarita
     shortTitle: Espírito Santinho, Garrafão e Santa Rita
@@ -361,16 +371,21 @@ components:
 
                 Nas comunidades rurais de Espírito Santinho, Garrafão e Santa Rita (Campos dos Goytacazes/RJ), a proposta conecta 250 famílias da agricultura familiar e ativa pontos coletivos (praças, sedes associativas e serviços locais), reforçando backhaul e última milha, com Wi‑Fi comunitário e atendimento residencial básico. Ao sustentar a vida no campo, a rede favorece estudo a distância, teleorientação em saúde, acesso a políticas públicas, previsões e alertas climáticos, organização da produção e canais de venda direta — reduzindo isolamento e ampliando renda e oportunidades.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/ESantinho.pdf
-                target: _self
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/ESantinho.pdf
+                      target: _self
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
         column2:
           components:
             - type: Gallery
@@ -425,16 +440,21 @@ components:
 
                 No Assentamento 25 de Março (Itaquira, Carapebus/RJ), o projeto trata conectividade como infraestrutura de direitos para 250 famílias e pontos coletivos (praça, sede da associação e serviços locais). A governança simples, com protagonismo da APRA 25 de Março, forma técnicos do próprio território e reativa parcerias com IFF e UENF, convertendo um plano interrompido na pandemia em ação estruturante que encurta distâncias para estudo e saúde, reduz custos e assimetrias de informação e fortalece a autonomia comunitária.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/Carapebus.pdf
-                target: _blank
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/Carapebus.pdf
+                      target: _blank
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
   - type: Group
     id: comurede
     shortTitle: ComuREDE
@@ -465,16 +485,21 @@ components:
 
                 Projeto da **ComuREDE**, a iniciativa na E.M. Alberto Francisco Torres (Niterói/RJ) — com 338 estudantes e 31 profissionais — atua em área urbana periférica com favelas no entorno onde a exclusão digital é elevada: 43% dos lares não possuem internet fixa/adequada e, sob o critério de conectividade significativa, estima-se que apenas 20–40% tenham serviço compatível com educação e trabalho remoto; além disso, planos de R$ 70–130/mês consomem 8–16% de rendas per capita de R$ 600–1.200. Para reverter esse quadro, o projeto implementa redes comunitárias híbridas (rádio e fibra local) autogeridas pela comunidade escolar — modelo já validado em periferias urbanas, áreas rurais, indígenas e quilombolas — garantindo acesso confiável a custos justos, com formação e governança locais, habilitando ensino híbrido, serviços públicos digitais e maior dinamização econômica no território.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/Niteroi.pdf
-                target: _self
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/Niteroi.pdf
+                      target: _self
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
         column2:
           components:
             - type: Gallery
@@ -527,16 +552,21 @@ components:
 
                 No Quilombo Ribeirão Grande/Terra Seca (Barra do Turvo/SP), onde o sinal “bate nos morros” e a densidade de banda larga é 23,4 por 100 habitantes, o projeto inicia com 30 famílias e pontos coletivos, já dimensionado para alcançar 150. A estratégia combina infraestrutura adequada ao relevo, gestão participativa e suporte técnico de agentes do próprio quilombo, convertendo acesso em cidadania: estudo, saúde, comercialização agroecológica e comunicação comunitária.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/QuilomboRibeiraoGrandeTerraSeca.pdf
-                target: _blank
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/QuilomboRibeiraoGrandeTerraSeca.pdf
+                      target: _blank
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
   - type: Group
     id: heliopolis
     shortTitle: Heliópolis
@@ -567,16 +597,21 @@ components:
 
                 Em Heliópolis (São Paulo/SP), a rede comunitária se integra a uma trajetória de organização social que inclui UNAS, a Rádio Comunitária Heliópolis e o Museu Digital (UNAS/UFABC). A proposta conecta 250 famílias nas áreas de Heliópolis e Cidade Nova, com pontos de uso coletivo em vielas e praças, reforçando educação, teleorientação em saúde, qualificação profissional, microempreendedorismo e comunicação local — um passo a mais para que bolsões periféricos não sigam à margem, mesmo numa capital com indicadores médios mais altos.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/Heliopolis.pdf
-                target: _self
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/Heliopolis.pdf
+                      target: _self
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
         column2:
           components:
             - type: Gallery
@@ -625,16 +660,21 @@ components:
 
                 No Jardim Peri (zona norte de São Paulo), a Rede Comunitária Novo Futuro nasce de uma base social ativa (Associação Pipa) e enfrenta um diagnóstico claro: entre ~3 mil famílias da Favela Futuro Melhor, há 392 domicílios sem internet, mais de 1.200 barrados pelo preço e ~1.792 compartilhando uma mesma conexão por quatro ou mais pessoas. O projeto liga 250 famílias e espaços coletivos (campo, vielas e praças), com backhaul estável, hubs Wi‑Fi gerenciáveis, kits domiciliares e trilhas de habilidades digitais, para reduzir dependências externas e abrir caminhos de estudo, renda e pertencimento.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/PIPA.pdf
-                target: _blank
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/PIPA.pdf
+                      target: _blank
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
   - type: Group
     id: cozinhas_solidarias
     shortTitle: Cozinhas Solidárias MTST
@@ -665,16 +705,21 @@ components:
 
                 Projeto do **Núcleo de Tecnologia do MTST**, a iniciativa nas **Cozinhas Solidárias** transforma 12 unidades em São Paulo em hubs de inclusão digital, sem perder sua missão de garantir refeições diárias, gratuitas e saudáveis e de fortalecer laços comunitários. Em territórios onde a conectividade é cara, instável ou ausente e faltam dispositivos e formação crítica, o projeto instala infraestrutura estável (Wi‑Fi aberto interno e externo, link dedicado, roteadores e nobreaks), oferece capacitações contínuas e forma 36 agentes comunitários, com governança participativa, parcerias locais, reuso de equipamentos e suporte técnico para sustentabilidade. O alcance direto é de ~2.400 pessoas/dia, com internet disponível também no entorno de cada cozinha, materiais didáticos e oficinas para juventude, mulheres e cuidadores — conectando famílias a serviços públicos, oportunidades de trabalho e participação cidadã — fazendo de cada cozinha uma infraestrutura de direitos: **prato cheio, conexão segura e futuro possível**.
             - type: Spacer
-              desktop: 100px
-              tablet: 100px
-              mobile: 100px
-            - type: Button
-              link:
-                url: /uploads/MTST-CozinhasSolidarias.pdf
-                target: _self
-                text: Acesse o Projeto
-              icon: <span class="material-symbols-outlined"> article </span>
-              size: wide
+              desktop: 30px
+              tablet: 30px
+              mobile: 30px
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/MTST-CozinhasSolidarias.pdf
+                      target: _self
+                      customTarget: ''
+                      text: Baixar
+                    icon: ''
         column2:
           components:
             - type: Gallery
@@ -744,4 +789,3 @@ components:
                     videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
                     videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
 ---
-
