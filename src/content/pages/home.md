@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customTxtColor: ''
             customBgColor: ''
-        customTxtColor: ''
-        customBgColor: ''
+            customTxtColor: ''
         body: ''
+        customBgColor: ''
+        customTxtColor: ''
     layout: default
   - type: Group
     id: introducao
@@ -146,9 +146,9 @@ components:
 
                 Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui ao lado todos os documentos juntos em um arquivo .zip de cada região.
             - type: Spacer
-              desktop: 30px
-              tablet: 30px
-              mobile: 30px
+              desktop: 50px
+              tablet: 50px
+              mobile: 50px
             - type: Cards
               cardsArr:
                 - Card:
