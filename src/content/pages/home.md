@@ -139,12 +139,14 @@ components:
               videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
         column2:
           components:
+            - type: BigNumbers
+              alignment: caption-bottom
+              items:
+                - number: '10'
+                  caption: Projetos
             - type: Text
               hasDropCap: false
-              content: |-
-                **Projetos**
-
-                Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
+              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
             - type: Spacer
               desktop: 50px
               tablet: 50px
@@ -153,7 +155,7 @@ components:
               cardsArr:
                 - Card:
                     type: Card
-                    title: Projetos de RJ
+                    title: Projetos de RJ (5)
                     text: Todos os projetos de comunidades do Rio de Janeiro
                     link:
                       url: /uploads/Projetos_emendas_redes_comunitarias_RJ.zip
@@ -163,7 +165,7 @@ components:
                     icon: <span class="material-symbols-outlined"> download_2 </span>
                 - Card:
                     type: Card
-                    title: Projetos de SP
+                    title: Projetos de SP (5)
                     text: Todos os projetos de comunidades do São Paulo
                     link:
                       url: /uploads/Projetos_emendas_redes_comunitarias_SP.zip
