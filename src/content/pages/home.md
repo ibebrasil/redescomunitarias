@@ -128,11 +128,11 @@ components:
               content: |-
                 **Como será viabilizado**
 
-                As emendas são direcionadas ao **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao MCOM** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
+                As emendas são direcionadas ao **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao MCOM** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
 
                 **Quem promove**
 
-                As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
+                As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
         column2:
           components:
             - type: Cards
@@ -140,7 +140,7 @@ components:
                 - Card:
                     type: Card
                     title: Documentos disponíveis
-                    text: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base.
+                    text: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base.
                     link:
                       url: '#'
                       target: ''
@@ -173,11 +173,11 @@ components:
               description: Fotos da rede
               uniqid: g_barra_acu
               images:
-                - image: /uploads/image33.jpg
-                  caption: ''
-                - image: /uploads/image17.jpg
+                - image: /uploads/image45.jpg
                   caption: ''
                 - image: /uploads/image7.jpg
+                  caption: ''
+                - image: /uploads/image18.jpg
                   caption: ''
         column2:
           components:
@@ -193,7 +193,7 @@ components:
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/BarradoAcu.pdf
                 target: _blank
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -233,7 +233,7 @@ components:
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/Cazumba.pdf
                 target: _self
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -244,11 +244,11 @@ components:
               description: Fotos da rede
               uniqid: g_cazumba
               images:
-                - image: /uploads/image11.jpg
-                  caption: ''
                 - image: /uploads/image12.jpg
                   caption: ''
-                - image: /uploads/image17.jpg
+                - image: /uploads/image24.jpg
+                  caption: ''
+                - image: /uploads/image11.jpg
                   caption: ''
   - type: Group
     id: marrecas_quixaba
@@ -275,11 +275,11 @@ components:
               description: Fotos da rede
               uniqid: g_marrecas
               images:
-                - image: /uploads/image29.png
+                - image: /uploads/image40.png
                   caption: ''
-                - image: /uploads/image19.png
+                - image: /uploads/image22.png
                   caption: ''
-                - image: /uploads/image21.png
+                - image: /uploads/image25.png
                   caption: ''
         column2:
           components:
@@ -288,14 +288,14 @@ components:
               content: |-
                 ## Marrecas e Quixaba
 
-                Na Baixada Campista, Marrecas e Quixaba expandem uma rede já ativa — hoje com 120 famílias — para alcançar mais 250 famílias (≈ 1.000 pessoas), além de duas praças e duas associações. Em território rural e disperso, a solução reforça backhaul quando necessário, amplia a última milha, instala Wi-Fi comunitário e realiza atendimentos domiciliares, tudo sob gestão local simples e transparente. O impacto se vê no cotidiano: aulas híbridas, teleatendimento em saúde, emissão de documentos, boletins de tempo e maré para pesca e plantio, logística compartilhada e meios de pagamento digitais.
+                Na Baixada Campista, Marrecas e Quixaba expandem uma rede já ativa — hoje com 120 famílias — para alcançar mais 250 famílias (≈ 1.000 pessoas), além de duas praças e duas associações. Em território rural e disperso, a solução reforça backhaul quando necessário, amplia a última milha, instala Wi‑Fi comunitário e realiza atendimentos domiciliares, tudo sob gestão local simples e transparente. O impacto se vê no cotidiano: aulas híbridas, teleatendimento em saúde, emissão de documentos, boletins de tempo e maré para pesca e plantio, logística compartilhada e meios de pagamento digitais.
             - type: Spacer
               desktop: 100px
               tablet: 100px
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/Marrecas.pdf
                 target: _blank
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -328,14 +328,14 @@ components:
               content: |-
                 ## Espírito Santinho, Garrafão e Santa Rita
 
-                Nas comunidades rurais de Espírito Santinho, Garrafão e Santa Rita (Campos dos Goytacazes/RJ), a proposta conecta 250 famílias da agricultura familiar e ativa pontos coletivos (praças, sedes associativas e serviços locais), reforçando backhaul e última milha, com Wi-Fi comunitário e atendimento residencial básico. Ao sustentar a vida no campo, a rede favorece estudo a distância, teleorientação em saúde, acesso a políticas públicas, previsões e alertas climáticos, organização da produção e canais de venda direta — reduzindo isolamento e ampliando renda e oportunidades.
+                Nas comunidades rurais de Espírito Santinho, Garrafão e Santa Rita (Campos dos Goytacazes/RJ), a proposta conecta 250 famílias da agricultura familiar e ativa pontos coletivos (praças, sedes associativas e serviços locais), reforçando backhaul e última milha, com Wi‑Fi comunitário e atendimento residencial básico. Ao sustentar a vida no campo, a rede favorece estudo a distância, teleorientação em saúde, acesso a políticas públicas, previsões e alertas climáticos, organização da produção e canais de venda direta — reduzindo isolamento e ampliando renda e oportunidades.
             - type: Spacer
               desktop: 100px
               tablet: 100px
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/ESantinho.pdf
                 target: _self
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -346,13 +346,11 @@ components:
               description: Fotos da rede
               uniqid: g_espiritossantinho
               images:
+                - image: /uploads/image19.png
+                  caption: ''
                 - image: /uploads/image8.jpg
                   caption: ''
-                - image: /uploads/image18.png
-                  caption: ''
-                - image: /uploads/image35.jpg
-                  caption: ''
-                - image: /uploads/image15.jpg
+                - image: /uploads/image16.png
                   caption: ''
   - type: Group
     id: assentamento_25_marco
@@ -383,6 +381,8 @@ components:
                   caption: ''
                 - image: /uploads/image14.png
                   caption: ''
+                - image: /uploads/image21.png
+                  caption: ''
                 - image: /uploads/image20.png
                   caption: ''
         column2:
@@ -399,7 +399,7 @@ components:
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/Carapebus.pdf
                 target: _blank
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -439,7 +439,7 @@ components:
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/Niteroi.pdf
                 target: _self
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -448,13 +448,13 @@ components:
           components:
             - type: Gallery
               description: Fotos da rede
-              uniqid: g_cazumba
+              uniqid: g_niteroi
               images:
-                - image: /uploads/image11.jpg
+                - image: /uploads/image13.png
                   caption: ''
-                - image: /uploads/image12.jpg
+                - image: /uploads/image41.png
                   caption: ''
-                - image: /uploads/image17.jpg
+                - image: /uploads/image4.png
                   caption: ''
   - type: Group
     id: ribeirao_grande
@@ -479,29 +479,29 @@ components:
           components:
             - type: Gallery
               description: Fotos da rede
-              uniqid: g_barra_acu
+              uniqid: g_ribeiraogrande
               images:
-                - image: /uploads/image33.jpg
+                - image: /uploads/image28.jpg
                   caption: ''
-                - image: /uploads/image17.jpg
+                - image: /uploads/image10.jpg
                   caption: ''
-                - image: /uploads/image7.jpg
+                - image: /uploads/image36.jpg
                   caption: ''
         column2:
           components:
             - type: Text
               hasDropCap: false
               content: |-
-                ## Barra do Açu
+                ## Quilombo Ribeirão Grande/Terra Seca
 
-                Na Barra do Açu (São João da Barra/RJ), a expansão parte de uma rede já viva — 50 famílias conectadas e uma rádio web comunitária — para chegar a mais 250 famílias e a pontos como escola, praças, UBS e sede associativa. A governança comunitária liderada pela AMA, com rotinas de manutenção e formação de agentes locais, consolida uma infraestrutura de direitos em um território em transformação, fortalecendo comércio, turismo de base comunitária, canais próprios de comunicação e alerta.
+                No Quilombo Ribeirão Grande/Terra Seca (Barra do Turvo/SP), onde o sinal “bate nos morros” e a densidade de banda larga é 23,4 por 100 habitantes, o projeto inicia com 30 famílias e pontos coletivos, já dimensionado para alcançar 150. A estratégia combina infraestrutura adequada ao relevo, gestão participativa e suporte técnico de agentes do próprio quilombo, convertendo acesso em cidadania: estudo, saúde, comercialização agroecológica e comunicação comunitária.
             - type: Spacer
               desktop: 100px
               tablet: 100px
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/QuilomboRibeiraoGrandeTerraSeca.pdf
                 target: _blank
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -532,16 +532,16 @@ components:
             - type: Text
               hasDropCap: false
               content: |-
-                ## Cazumbá e entorno
+                ## Heliópolis - UNAS
 
-                Em Cazumbá e entorno (Sabonete, Campos de Areia, Córrego Fundo, Barra do Jacaré e Água Preta), também em São João da Barra, o projeto conecta 250 famílias agricultoras e pontos coletivos — praças, duas unidades de saúde e três escolas — num município com baixa densidade de banda larga. A autogestão, com protagonismo da ADEC, sustenta o uso seguro e prático da rede (educação, saúde, documentos, alertas climáticos), reduz custos e assimetrias de informação e dá previsibilidade ao escoamento da produção, com efeito multiplicador no Sertão Sanjoanense.
+                Em Heliópolis (São Paulo/SP), a rede comunitária se integra a uma trajetória de organização social que inclui UNAS, a Rádio Comunitária Heliópolis e o Museu Digital (UNAS/UFABC). A proposta conecta 250 famílias nas áreas de Heliópolis e Cidade Nova, com pontos de uso coletivo em vielas e praças, reforçando educação, teleorientação em saúde, qualificação profissional, microempreendedorismo e comunicação local — um passo a mais para que bolsões periféricos não sigam à margem, mesmo numa capital com indicadores médios mais altos.
             - type: Spacer
               desktop: 100px
               tablet: 100px
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/Heliopolis.pdf
                 target: _self
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -550,14 +550,8 @@ components:
           components:
             - type: Gallery
               description: Fotos da rede
-              uniqid: g_cazumba
-              images:
-                - image: /uploads/image11.jpg
-                  caption: ''
-                - image: /uploads/image12.jpg
-                  caption: ''
-                - image: /uploads/image17.jpg
-                  caption: ''
+              uniqid: g_heliopolis
+              images: []
   - type: Group
     id: novo_futuro
     shortTitle: Novo Futuro
@@ -581,29 +575,31 @@ components:
           components:
             - type: Gallery
               description: Fotos da rede
-              uniqid: g_barra_acu
+              uniqid: g_novofuturo
               images:
                 - image: /uploads/image33.jpg
                   caption: ''
+                - image: /uploads/image37.jpg
+                  caption: ''
                 - image: /uploads/image17.jpg
                   caption: ''
-                - image: /uploads/image7.jpg
+                - image: /uploads/image42.jpg
                   caption: ''
         column2:
           components:
             - type: Text
               hasDropCap: false
               content: |-
-                ## Barra do Açu
+                ## Novo Futuro Jardim Peri
 
-                Na Barra do Açu (São João da Barra/RJ), a expansão parte de uma rede já viva — 50 famílias conectadas e uma rádio web comunitária — para chegar a mais 250 famílias e a pontos como escola, praças, UBS e sede associativa. A governança comunitária liderada pela AMA, com rotinas de manutenção e formação de agentes locais, consolida uma infraestrutura de direitos em um território em transformação, fortalecendo comércio, turismo de base comunitária, canais próprios de comunicação e alerta.
+                No Jardim Peri (zona norte de São Paulo), a Rede Comunitária Novo Futuro nasce de uma base social ativa (Associação Pipa) e enfrenta um diagnóstico claro: entre ~3 mil famílias da Favela Futuro Melhor, há 392 domicílios sem internet, mais de 1.200 barrados pelo preço e ~1.792 compartilhando uma mesma conexão por quatro ou mais pessoas. O projeto liga 250 famílias e espaços coletivos (campo, vielas e praças), com backhaul estável, hubs Wi‑Fi gerenciáveis, kits domiciliares e trilhas de habilidades digitais, para reduzir dependências externas e abrir caminhos de estudo, renda e pertencimento.
             - type: Spacer
               desktop: 100px
               tablet: 100px
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/PIPA.pdf
                 target: _blank
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -634,16 +630,16 @@ components:
             - type: Text
               hasDropCap: false
               content: |-
-                ## Cazumbá e entorno
+                ## Cozinhas Solidárias - Núcleo de Tecnologia do MTST
 
-                Em Cazumbá e entorno (Sabonete, Campos de Areia, Córrego Fundo, Barra do Jacaré e Água Preta), também em São João da Barra, o projeto conecta 250 famílias agricultoras e pontos coletivos — praças, duas unidades de saúde e três escolas — num município com baixa densidade de banda larga. A autogestão, com protagonismo da ADEC, sustenta o uso seguro e prático da rede (educação, saúde, documentos, alertas climáticos), reduz custos e assimetrias de informação e dá previsibilidade ao escoamento da produção, com efeito multiplicador no Sertão Sanjoanense.
+                Projeto do **Núcleo de Tecnologia do MTST**, a iniciativa nas **Cozinhas Solidárias** transforma 12 unidades em São Paulo em hubs de inclusão digital, sem perder sua missão de garantir refeições diárias, gratuitas e saudáveis e de fortalecer laços comunitários. Em territórios onde a conectividade é cara, instável ou ausente e faltam dispositivos e formação crítica, o projeto instala infraestrutura estável (Wi‑Fi aberto interno e externo, link dedicado, roteadores e nobreaks), oferece capacitações contínuas e forma 36 agentes comunitários, com governança participativa, parcerias locais, reuso de equipamentos e suporte técnico para sustentabilidade. O alcance direto é de ~2.400 pessoas/dia, com internet disponível também no entorno de cada cozinha, materiais didáticos e oficinas para juventude, mulheres e cuidadores — conectando famílias a serviços públicos, oportunidades de trabalho e participação cidadã — fazendo de cada cozinha uma infraestrutura de direitos: **prato cheio, conexão segura e futuro possível**.
             - type: Spacer
               desktop: 100px
               tablet: 100px
               mobile: 100px
             - type: Button
               link:
-                url: '#'
+                url: /uploads/MTST-CozinhasSolidarias.pdf
                 target: _self
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
@@ -652,13 +648,18 @@ components:
           components:
             - type: Gallery
               description: Fotos da rede
-              uniqid: g_cazumba
+              uniqid: g_mtst
               images:
-                - image: /uploads/image11.jpg
+                - image: /uploads/image46.png
                   caption: ''
-                - image: /uploads/image12.jpg
+                - image: /uploads/image26.png
                   caption: ''
-                - image: /uploads/image17.jpg
+                - image: /uploads/image3.png
+                  caption: ''
+                - image: /uploads/image5.jpg
+                  caption: ''
+                - image: /uploads/image44.jpg
+                  caption: ''
+                - image: /uploads/image27.jpg
                   caption: ''
 ---
-
