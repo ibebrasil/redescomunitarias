@@ -139,13 +139,13 @@ components:
               cardsArr:
                 - Card:
                     type: Card
-                    title: Documentos disponíveis
-                    text: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base.
+                    title: Todos os projetos
+                    text: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos od documentos juntos em um arquivo .zip.
                     link:
-                      url: '#'
-                      target: ''
+                      url: /uploads/Projetos_emendas_redes_comunitarias_SP-RJ.zip
+                      target: _blank
                       customTarget: ''
-                      text: Baixar
+                      text: Baixar todos projetos
                     icon: <span class="material-symbols-outlined"> download_2 </span>
     layout: default
   - type: Group
