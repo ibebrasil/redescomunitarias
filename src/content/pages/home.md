@@ -116,19 +116,15 @@ components:
     customBgColor: ''
     overlay: dark
     components:
-      - type: Column
-        paddingTop: false
-        paddingBottom: false
-        components:
-          - type: BigNumbers
-            alignment: caption-bottom
-            items:
-              - number: '10'
-                caption: Comunidades
-              - number: '05'
-                caption: Projetos de RJ
-              - number: '05'
-                caption: Projetos de SP
+      - type: BigNumbers
+        alignment: caption-bottom
+        items:
+          - number: '10'
+            caption: Comunidades
+          - number: '05'
+            caption: Projetos de RJ
+          - number: '05'
+            caption: Projetos de SP
       - type: Columns
         paddingTop: false
         paddingBottom: false
