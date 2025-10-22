@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customBgColor: ''
             customTxtColor: ''
-        body: ''
-        customBgColor: ''
+            customBgColor: ''
         customTxtColor: ''
+        customBgColor: ''
+        body: ''
     layout: default
   - type: Group
     id: introducao
@@ -198,6 +198,18 @@ components:
                 text: Acesse o Projeto
               icon: <span class="material-symbols-outlined"> article </span>
               size: wide
+            - type: Cards
+              cardsArr:
+                - Card:
+                    type: Card
+                    title: Documentos disponíveis
+                    text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
+                    link:
+                      url: /uploads/BarradoAcu.pdf
+                      target: _blank
+                      customTarget: ''
+                      text: Baixar
+                    icon: <span class="material-symbols-outlined"> download_2 </span>
   - type: Group
     id: cazumba
     shortTitle: Cazumbá
@@ -663,3 +675,4 @@ components:
                 - image: /uploads/image27.jpg
                   caption: ''
 ---
+
