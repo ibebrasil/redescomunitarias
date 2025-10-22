@@ -182,9 +182,9 @@ components:
               images:
                 - image: /uploads/image45.jpg
                   caption: ''
-                - image: /uploads/image7.jpg
-                  caption: ''
                 - image: /uploads/image18.jpg
+                  caption: ''
+                - image: /uploads/image7.jpg
                   caption: ''
         column2:
           components:
