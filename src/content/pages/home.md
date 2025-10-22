@@ -144,7 +144,7 @@ components:
               content: |-
                 **Projetos**
 
-                Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui ao lado todos os documentos juntos em um arquivo .zip de cada região.
+                Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
             - type: Spacer
               desktop: 50px
               tablet: 50px
