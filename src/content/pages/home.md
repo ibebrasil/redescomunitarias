@@ -116,15 +116,6 @@ components:
     customBgColor: ''
     overlay: dark
     components:
-      - type: BigNumbers
-        alignment: caption-bottom
-        items:
-          - number: '10'
-            caption: Comunidades
-          - number: '05'
-            caption: Projetos de RJ
-          - number: '05'
-            caption: Projetos de SP
       - type: Columns
         paddingTop: false
         paddingBottom: false
@@ -144,17 +135,30 @@ components:
                 As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
         column2:
           components:
+            - type: Text
+              hasDropCap: false
+              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip de cada região.
             - type: Cards
               cardsArr:
                 - Card:
                     type: Card
-                    title: Todos os projetos
-                    text: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos od documentos juntos em um arquivo .zip.
+                    title: Projetos de RJ
+                    text: Todos os projetos de comunidades do Rio de Janeiro
                     link:
-                      url: /uploads/Projetos_emendas_redes_comunitarias_SP-RJ.zip
+                      url: /uploads/Projetos_emendas_redes_comunitarias_RJ.zip
                       target: _blank
                       customTarget: ''
-                      text: Baixar todos projetos
+                      text: Baixar Documentos
+                    icon: <span class="material-symbols-outlined"> download_2 </span>
+                - Card:
+                    type: Card
+                    title: Projetos de SP
+                    text: Todos os projetos de comunidades do São Paulo
+                    link:
+                      url: /uploads/Projetos_emendas_redes_comunitarias_SP.zip
+                      target: _blank
+                      customTarget: ''
+                      text: Baixar Documentos
                     icon: <span class="material-symbols-outlined"> download_2 </span>
     layout: default
   - type: Group
