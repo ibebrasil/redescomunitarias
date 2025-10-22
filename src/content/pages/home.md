@@ -133,11 +133,12 @@ components:
                 **Quem promove**
 
                 As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Redes Comunitárias**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
+
+                **Projetos**
+
+                Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui ao lado todos os documentos juntos em um arquivo .zip de cada região.
         column2:
           components:
-            - type: Text
-              hasDropCap: false
-              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip de cada região.
             - type: Cards
               cardsArr:
                 - Card:
