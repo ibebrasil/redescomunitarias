@@ -820,7 +820,7 @@ components:
               src: /uploads/screenshot-from-2025-10-23-13-09-22.png
               alt: ''
             title: Grupo de Trabalho de Redes Comunitárias na Anatel
-            text: A expansão das redes às áreas urbanas desatendidas, rurais ou remotas tem sido um princípio norteador da ampliação de acesso no país. Tanto o mercado como o governo apresentaram nos últimos anos iniciativas nesse sentido, como o aumento da presença das Prestadoras de Pequeno Porte (PPP) em pequenos municípios, a criação do Comitê das PPP ([Resolução da Anatel nº 698/2018](https://informacoes.anatel.gov.br/legislacao/resolucoes/2018/1159-resolucao-698)) ...
+            text: A expansão das redes às áreas urbanas desatendidas, rurais ou remotas tem sido um princípio norteador da ampliação de acesso no país. Tanto o mercado como o governo apresentaram nos últimos anos iniciativas nesse sentido, como o aumento da presença das Prestadoras de Pequeno Porte (PPP) em pequenos municípios, a criação do Comitê das PPP (Resolução da Anatel nº 698/2018) ...
           - link:
               url: https://www.intgovforum.org/en/content/dynamic-coalition-on-community-connectivity-dc3-0
               target: _blank
@@ -830,6 +830,15 @@ components:
               alt: ''
             title: Dynamic Coalition Community Conectivity/ONU/IGF
             text: 'The need for a Dynamic Coalition on Community Connectivity (DC3) emerged during the IGF workshop 223 "Community Networks: a Revolutionary Paradigm", held in João Pessoa, during the 10th IGF. Workshop participants agreed on the potential of community networks in order to promote sustainable Internet connectivity...'
+          - link:
+              url: https://cetic.br/media/docs/publicacoes/7/20220905125048/estudos_setoriais_redes_comunitarias_de_internet_no_brasil.pdf
+              target: _blank
+              customTarget: ''
+            img:
+              src: /uploads/screenshot-from-2025-10-23-13-12-54.png
+              alt: ''
+            title: 'Estudos Setoriais: Redes Comunitárias de Internet no Brasil/CETIC.Br/CGI.Br'
+            text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
           - link:
               url: https://cetic.br/media/docs/publicacoes/7/20220905125048/estudos_setoriais_redes_comunitarias_de_internet_no_brasil.pdf
               target: _blank
