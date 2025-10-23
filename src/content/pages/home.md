@@ -772,7 +772,7 @@ components:
               content: |-
                 ### Saiba mais sobre as Redes Comunitárias
 
-                Veja vídeos de projetos, organizações e comunidades que promovem Redes Comunitárias conhecer mais esse movimento que promove autonomia tecnológica para quem mais precisa.
+                Veja vídeos de projetos, organizações e comunidades que promovem Redes Comunitárias conhecer mais esse movimento que promove autonomia tecnológica.
         column2:
           components:
             - type: InnerColumns
