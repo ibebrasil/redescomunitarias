@@ -864,23 +864,5 @@ components:
               alt: ''
             title: Reunião do Comitê Nacional de Redes Comunitárias com a Ministra Sônia Faustino do MCOM
             text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
-          - link:
-              url: https://cetic.br/media/docs/publicacoes/7/20220905125048/estudos_setoriais_redes_comunitarias_de_internet_no_brasil.pdf
-              target: _blank
-              customTarget: ''
-            img:
-              src: /uploads/screenshot-from-2025-10-23-13-12-54.png
-              alt: ''
-            title: 'Estudos Setoriais: Redes Comunitárias de Internet no Brasil/CETIC.Br/CGI.Br'
-            text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
-          - link:
-              url: https://cetic.br/media/docs/publicacoes/7/20220905125048/estudos_setoriais_redes_comunitarias_de_internet_no_brasil.pdf
-              target: _blank
-              customTarget: ''
-            img:
-              src: /uploads/screenshot-from-2025-10-23-13-12-54.png
-              alt: ''
-            title: 'Estudos Setoriais: Redes Comunitárias de Internet no Brasil/CETIC.Br/CGI.Br'
-            text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
 ---
 
