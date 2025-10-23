@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customBgColor: ''
             customTxtColor: ''
-        body: ''
-        customBgColor: ''
+            customBgColor: ''
         customTxtColor: ''
+        customBgColor: ''
+        body: ''
     layout: default
   - type: Group
     id: introducao
@@ -801,7 +801,7 @@ components:
     shortTitle: Links
     longTitle: Links
     description: ''
-    showInMenu: false
+    showInMenu: true
     animations: true
     txtColor: Primary
     customTxtColor: ''
@@ -810,6 +810,22 @@ components:
     backgroundMedia: []
     overlay: ''
     components:
+      - type: Columns
+        paddingTop: false
+        paddingBottom: false
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: '### Links relacionados'
+        column2:
+          components:
+            - type: Spacer
+              desktop: 1px
+              tablet: 1px
+              mobile: 1px
       - type: CardsCall
         cardsCallArr:
           - link:
@@ -830,6 +846,24 @@ components:
               alt: ''
             title: Dynamic Coalition Community Conectivity/ONU/IGF
             text: 'The need for a Dynamic Coalition on Community Connectivity (DC3) emerged during the IGF workshop 223 "Community Networks: a Revolutionary Paradigm", held in João Pessoa, during the 10th IGF. Workshop participants agreed on the potential of community networks in order to promote sustainable Internet connectivity...'
+          - link:
+              url: https://cetic.br/media/docs/publicacoes/7/20220905125048/estudos_setoriais_redes_comunitarias_de_internet_no_brasil.pdf
+              target: _blank
+              customTarget: ''
+            img:
+              src: /uploads/screenshot-from-2025-10-23-13-12-54.png
+              alt: ''
+            title: 'Estudos Setoriais: Redes Comunitárias de Internet no Brasil/CETIC.Br/CGI.Br'
+            text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
+          - link:
+              url: https://www.gov.br/mcom/pt-br/noticias/2024/abril/inclusao-digital-em-areas-remotas-e-tema-de-reuniao-do-ministerio-das-comunicacoes-e-comite-de-redes-comunitarias
+              target: _blank
+              customTarget: ''
+            img:
+              src: /uploads/screenshot-from-2025-10-23-13-09-22.png
+              alt: ''
+            title: Reunião do Comitê Nacional de Redes Comunitárias com a Ministra Sônia Faustino do MCOM
+            text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
           - link:
               url: https://cetic.br/media/docs/publicacoes/7/20220905125048/estudos_setoriais_redes_comunitarias_de_internet_no_brasil.pdf
               target: _blank
