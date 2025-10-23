@@ -3,9 +3,9 @@ title: Home
 slug: home
 pageSettings:
   language: pt-BR
-  link_pt_br: /home
-  link_en: /home-en
-  link_es: /home-es
+  link_pt_br: '#'
+  link_en: '#'
+  link_es: '#'
   animations: enable_all
   direction: left
   seoTitle: ''
@@ -128,11 +128,11 @@ components:
               content: |-
                 **Como será viabilizado**
 
-                As emendas poderão ser direcionadas tanto ao **Ministério da Ciência, Tecnologia e Inovação (MCPI)&#32;**ou **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
+                As emendas poderão ser direcionadas tanto ao **Ministério da Ciência, Tecnologia e Inovação (MCTI)&#32;**ou **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
 
                 **Quem promove**
 
-                As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, por meio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Inclusão Digital**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
+                As propostas contam com o apoio do **Comitê Nacional de Redes Comunitárias**, com apoio do **Instituto Bem Estar Brasil (IBEBrasil)**. O IBEBrasil presta **incidência e suporte técnico** às **10 comunidades proponentes**, em um momento estratégico de debate do **Plano Nacional de Inclusão Digital**, que consolida as redes comunitárias como **política pública de inclusão digital** e **conectividade significativa** no âmbito federal.
             - type: VideoEmbed
               wideVideo: false
               videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
@@ -146,7 +146,7 @@ components:
                   caption: Projetos
             - type: Text
               hasDropCap: false
-              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
+              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. - sumário executivo. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
             - type: Spacer
               desktop: 50px
               tablet: 50px
@@ -155,7 +155,7 @@ components:
               cardsArr:
                 - Card:
                     type: Card
-                    title: Projetos de RJ (6)
+                    title: Projetos do RJ (6)
                     text: Todos os projetos de comunidades do Rio de Janeiro
                     link:
                       url: /uploads/Projetos_emendas_redes_comunitarias_RJ.zip
@@ -165,7 +165,7 @@ components:
                     icon: <span class="material-symbols-outlined"> download_2 </span>
                 - Card:
                     type: Card
-                    title: Projetos de SP (4)
+                    title: Projetos do SP (4)
                     text: Todos os projetos de comunidades do São Paulo
                     link:
                       url: /uploads/Projetos_emendas_redes_comunitarias_SP.zip
@@ -863,6 +863,15 @@ components:
               src: /uploads/screenshot-from-2025-10-23-13-09-22.png
               alt: ''
             title: Reunião do Comitê Nacional de Redes Comunitárias com a Ministra Sônia Faustino do MCOM
-            text: Há 17 anos, o Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), depa r t a mento do Núcleo de Informação e Coordenação do Ponto BR (NIC.br), monitora a apropriação das tecnologias digitais pela sociedade brasileira ...
+            text: O Ministério das Comunicações recebeu nesta quarta-feira (17) representantes do Comitê de Redes Comunitárias. O grupo discutiu a implementação de políticas públicas voltadas à inclusão digital em áreas remotas através de redes comunitárias...
+          - link:
+              url: https://cetic.br/media/docs/publicacoes/7/20240415183307/estudos_setoriais-conectividade_significativa.pdf
+              target: _blank
+              customTarget: ''
+            img:
+              src: /uploads/screenshot-from-2025-10-23-17-58-54.png
+              alt: ''
+            title: Estudos Setoriai de Conectividad Significativa
+            text: O papel desempenhado pela Internet em nosso cotidiano é cada vez mais relevante, embora sua presença seja, por vezes, menos perceptível. Essa mudança na compreensão se deve a quão imbricadas estão as tecnologias em nossas rotinas, de maneira que as fronteiras de sua presença ficam difusas...
 ---
 
