@@ -128,7 +128,7 @@ components:
               content: |-
                 **Como será viabilizado**
 
-                As emendas são direcionadas ao **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao MCOM** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
+                As emendas poderão ser direcionadas tanto ao **Ministério da Ciência, Tecnologia e Inovação (MCPI)&#32;**ou **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
 
                 **Quem promove**
 
