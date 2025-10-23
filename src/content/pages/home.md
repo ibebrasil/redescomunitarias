@@ -224,7 +224,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/BarradoAcu.pdf
+                      url: /projetos/uploads/BarradoAcu.pdf
                       target: _blank
                       customTarget: ''
                       text: Baixar
@@ -269,7 +269,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/Cazumba.pdf
+                      url: /projetos/uploads/Cazumba.pdf
                       target: _self
                       customTarget: ''
                       text: Baixar
@@ -336,7 +336,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/Marrecas.pdf
+                      url: /projetos/uploads/Marrecas.pdf
                       target: _blank
                       customTarget: ''
                       text: Baixar
@@ -381,7 +381,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/ESantinho.pdf
+                      url: /projetos/uploads/ESantinho.pdf
                       target: _self
                       customTarget: ''
                       text: Baixar
@@ -450,7 +450,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/Carapebus.pdf
+                      url: /projetos/uploads/Carapebus.pdf
                       target: _blank
                       customTarget: ''
                       text: Baixar
@@ -495,7 +495,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/Niteroi.pdf
+                      url: /projetos/uploads/Niteroi.pdf
                       target: _self
                       customTarget: ''
                       text: Baixar
@@ -562,7 +562,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/QuilomboRibeiraoGrandeTerraSeca.pdf
+                      url: /projetos/uploads/QuilomboRibeiraoGrandeTerraSeca.pdf
                       target: _blank
                       customTarget: ''
                       text: Baixar
@@ -607,7 +607,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/Heliopolis.pdf
+                      url: /projetos/uploads/Heliopolis.pdf
                       target: _self
                       customTarget: ''
                       text: Baixar
@@ -678,7 +678,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/PIPA.pdf
+                      url: /projetos/uploads/PIPA.pdf
                       target: _blank
                       customTarget: ''
                       text: Baixar
@@ -723,7 +723,7 @@ components:
                     title: Documentos disponíveis
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
-                      url: /uploads/MTST-CozinhasSolidarias.pdf
+                      url: /projetos/uploads/MTST-CozinhasSolidarias.pdf
                       target: _self
                       customTarget: ''
                       text: Baixar
