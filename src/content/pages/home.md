@@ -155,7 +155,7 @@ components:
               cardsArr:
                 - Card:
                     type: Card
-                    title: Projetos de RJ (5)
+                    title: Projetos de RJ (6)
                     text: Todos os projetos de comunidades do Rio de Janeiro
                     link:
                       url: /uploads/Projetos_emendas_redes_comunitarias_RJ.zip
@@ -165,7 +165,7 @@ components:
                     icon: <span class="material-symbols-outlined"> download_2 </span>
                 - Card:
                     type: Card
-                    title: Projetos de SP (5)
+                    title: Projetos de SP (4)
                     text: Todos os projetos de comunidades do São Paulo
                     link:
                       url: /uploads/Projetos_emendas_redes_comunitarias_SP.zip
