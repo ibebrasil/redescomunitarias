@@ -158,7 +158,7 @@ components:
                     title: Projetos do RJ (6)
                     text: Todos os projetos de comunidades do Rio de Janeiro
                     link:
-                      url: /uploads/Projetos_emendas_redes_comunitarias_RJ.zip
+                      url: /projetos/uploads/Projetos_emendas_redes_comunitarias_RJ.zip
                       target: _blank
                       customTarget: ''
                       text: Baixar Documentos
@@ -168,7 +168,7 @@ components:
                     title: Projetos do SP (4)
                     text: Todos os projetos de comunidades do São Paulo
                     link:
-                      url: /uploads/Projetos_emendas_redes_comunitarias_SP.zip
+                      url: /projetos/uploads/Projetos_emendas_redes_comunitarias_SP.zip
                       target: _blank
                       customTarget: ''
                       text: Baixar Documentos
