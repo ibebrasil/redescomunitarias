@@ -124,7 +124,7 @@ components:
         column1:
           components:
             - type: Text
-              hasDropCap: true
+              hasDropCap: false
               content: |-
                 **Como será viabilizado**
 
