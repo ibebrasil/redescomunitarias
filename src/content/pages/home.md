@@ -873,5 +873,14 @@ components:
               alt: ''
             title: Estudos Setoriai de Conectividad Significativa
             text: O papel desempenhado pela Internet em nosso cotidiano é cada vez mais relevante, embora sua presença seja, por vezes, menos perceptível. Essa mudança na compreensão se deve a quão imbricadas estão as tecnologias em nossas rotinas, de maneira que as fronteiras de sua presença ficam difusas...
+          - link:
+              url: https://adi.a4ai.org/studies/licensing-for-community-networks/
+              target: _blank
+              customTarget: ''
+            img:
+              src: /uploads/screenshot-from-2025-10-23-22-19-01.png
+              alt: ''
+            title: Licensing for community networks
+            text: Argentina helps to bridge the country’s digital divide by establishing licenses for community networks in rural, remote and other vulnerable areas...
 ---
 
