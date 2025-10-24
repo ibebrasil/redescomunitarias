@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Projetos
 slug: home
 pageSettings:
   language: pt-BR
