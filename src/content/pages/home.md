@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customBgColor: ''
             customTxtColor: ''
-        body: ''
-        customBgColor: ''
+            customBgColor: ''
         customTxtColor: ''
+        customBgColor: ''
+        body: ''
     layout: default
   - type: Group
     id: introducao
@@ -136,7 +136,7 @@ components:
             - type: VideoEmbed
               wideVideo: false
               videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=0yBPMvLOum67_EEn
-              videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sanjoanense
+              videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
         column2:
           components:
             - type: BigNumbers
@@ -781,7 +781,7 @@ components:
                   - type: VideoEmbed
                     wideVideo: false
                     videoUrl: https://www.youtube.com/embed/VS_VwtzCd7g?si=YRveHp9kJL-B0Fws
-                    videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sanjoanense
+                    videoCaption: Campanha de financiamento coletivo do provedor comunitário de Marrecas-RJ
                   - type: VideoEmbed
                     wideVideo: false
                     videoUrl: https://www.youtube.com/embed/mb_AMyBn80k?si=F1XPT77He4H_Kj6p
@@ -791,7 +791,7 @@ components:
                   - type: VideoEmbed
                     wideVideo: false
                     videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=Fc55HnJ2pnxmd5ny
-                    videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sanjoanense
+                    videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
                   - type: VideoEmbed
                     wideVideo: false
                     videoUrl: https://www.youtube.com/embed/BFyUNaMeCW8?si=CYS5KtQQYwvn3DtS
