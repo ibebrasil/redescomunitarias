@@ -170,7 +170,7 @@ components:
                     link:
                       url: /projetos/uploads/Projetos_emendas_redes_comunitarias_SP.zip
                       target: _blank
-                      customTarget: ''
+                      custom ''
                       text: Baixar Documentos
                     icon: <span class="material-symbols-outlined"> download_2 </span>
     layout: default
@@ -270,7 +270,7 @@ components:
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
                       url: /projetos/uploads/Cazumba.pdf
-                      target: _self
+                      target: _blank
                       customTarget: ''
                       text: Baixar
                     icon: ''
@@ -382,7 +382,7 @@ components:
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
                       url: /projetos/uploads/ESantinho.pdf
-                      target: _self
+                      target: _blank
                       customTarget: ''
                       text: Baixar
                     icon: ''
@@ -496,7 +496,7 @@ components:
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
                       url: /projetos/uploads/Niteroi.pdf
-                      target: _self
+                      target: _blank
                       customTarget: ''
                       text: Baixar
                     icon: ''
@@ -608,7 +608,7 @@ components:
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
                       url: /projetos/uploads/Heliopolis.pdf
-                      target: _self
+                      target: _blank
                       customTarget: ''
                       text: Baixar
                     icon: ''
@@ -724,7 +724,7 @@ components:
                     text: Sumário do projeto, o ofício e o espelho do pedido de emenda parlamentar.
                     link:
                       url: /projetos/uploads/MTST-CozinhasSolidarias.pdf
-                      target: _self
+                      target: _blank
                       customTarget: ''
                       text: Baixar
                     icon: ''
