@@ -170,7 +170,7 @@ components:
                     link:
                       url: /projetos/uploads/Projetos_emendas_redes_comunitarias_SP.zip
                       target: _blank
-                      custom ''
+                      customTarget: ''
                       text: Baixar Documentos
                     icon: <span class="material-symbols-outlined"> download_2 </span>
     layout: default
