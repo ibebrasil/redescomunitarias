@@ -146,7 +146,7 @@ components:
                   caption: Projetos
             - type: Text
               hasDropCap: false
-              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário-base. - sumário executivo. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
+              content: Abaixo, você encontra o resumo de cada projeto e os respectivos ofícios, espelhos de emenda e o sumário executivo. Ou você pode baixar aqui todos os documentos juntos em um arquivo .zip para cada região.
             - type: Spacer
               desktop: 50px
               tablet: 50px
