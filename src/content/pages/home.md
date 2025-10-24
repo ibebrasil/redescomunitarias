@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customTxtColor: ''
             customBgColor: ''
-        customTxtColor: ''
-        customBgColor: ''
+            customTxtColor: ''
         body: ''
+        customBgColor: ''
+        customTxtColor: ''
     layout: default
   - type: Group
     id: introducao
@@ -128,7 +128,7 @@ components:
               content: |-
                 **Como será viabilizado**
 
-                As emendas poderão ser direcionadas tanto ao **Ministério da Ciência, Tecnologia e Inovação (MCTI)&#32;**ou **Ministério das Comunicações (MCOM)**, utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
+                As emendas poderão ser direcionadas tanto ao **Ministério da Ciência, Tecnologia e Inovação (MCTI)** ou **Ministério das Comunicações (MCOM)** , utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
 
                 **Quem promove**
 
@@ -791,7 +791,7 @@ components:
                   - type: VideoEmbed
                     wideVideo: false
                     videoUrl: https://www.youtube.com/embed/x47BLqD4onM?si=Fc55HnJ2pnxmd5ny
-                    videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sajoanense
+                    videoCaption: Redes Comunitárias de Internet - Projeto de Expansão na Baixada Campista e Sertão Sanjoanense
                   - type: VideoEmbed
                     wideVideo: false
                     videoUrl: https://www.youtube.com/embed/BFyUNaMeCW8?si=CYS5KtQQYwvn3DtS
