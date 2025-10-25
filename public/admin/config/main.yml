@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: thiagopaixao/astro_sveltia
-  branch: main
+  repo: ibebrasil/redescomunitarias
+  branch: preview
   base_url: https://sveltia-cms-auth.tap-647.workers.dev
 
 media_libraries:
