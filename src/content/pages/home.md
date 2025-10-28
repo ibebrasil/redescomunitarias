@@ -97,11 +97,11 @@ components:
               Reunir e disponibilizar os **ofícios**, **espelhos de emenda** e **sumários executivos** dos projetos de redes comunitárias nos estados de São Paulo e do Rio de Janeiro, para apoio via emendas parlamentares.
             txtColor: ''
             bgColor: ''
-            customBgColor: ''
             customTxtColor: ''
-        body: ''
-        customBgColor: ''
+            customBgColor: ''
         customTxtColor: ''
+        customBgColor: ''
+        body: ''
     layout: default
   - type: Group
     id: introducao
@@ -128,7 +128,7 @@ components:
               content: |-
                 **Como será viabilizado**
 
-                As emendas poderão ser direcionadas tanto ao **Ministério da Ciência, Tecnologia e Inovação (MCTI)** ou **Ministério das Comunicações (MCOM)** , utilizando **modalidade de aplicação 90** e **localizador 0001 – Nacional**. A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
+                As emendas poderão ser direcionadas tanto ao[**&#32;Ministério da Ciência, Tecnologia e Inovação (MCTI)**](https://www.congressonacional.leg.br/documents/150599582/151110312/MCTI.pdf/863c9bea-fe39-4e5e-b421-3f4e3b6004c4), via Ação 20UP ou **Ministério das Comunicações (MCOM)** via Ação 20V8, utilizando **modalidade de aplicação 90 e localizador 0001 – Nacional**.  A(o) parlamentar poderá **oficiar ao respectivo minitério** as **localidades** onde os projetos serão implementados, priorizando **áreas rurais**, **periferias urbanas** e **povos e comunidades tradicionais** em situação de exclusão digital.
 
                 **Quem promove**
 
